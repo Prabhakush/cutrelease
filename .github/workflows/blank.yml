@@ -1,3 +1,5 @@
+
+
 name: CI
 on:
   push:
@@ -29,5 +31,5 @@ jobs:
     if: ${{ github.event.inputs.check == true }}
     steps:
       - name: Run a one-line script
-        run: echo "value from the user" ${{ github.event.inputs.check }}
+        run: echo "value from the user" ${{ github.event.inputs.varribe1 }}
         
